@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="newnavigation.css">
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Home</a>
+  <a href="newabout.html">About</a>
+  <a href="newconverter.html">Converter</a>
+  <a href="newconvertedsongs.html">Converted Songs</a>
+  <a href="recordings.html">Recorded Music</a>
+  
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+
+    <div class="container">
+      <center>
+        <h1 style = "  font-family: 'Times New Roman', serif;
+;">About</h1>
+        <div class="img">
+        </div>
+        <p>
+          Hello! I'm Bhavya Linga. I created this website because, as a flute player, I know how difficult it can be to play music in various foreign languages. Personally, I've had trouble playing Indian songs on the flute because the notes are in a different format than how I learned at school. My website will help with translating those Carnatic notes into Western notes, making it much easier to play these songs. 
+        </p>
+      </center>
+
+    </div>
+    <style>
+      .container{
+  height: 75vh;
+  width: 70%;
+  background: rgba(0, 0, 0, .6) ;
+  position:  absolute;
+  top: 60%;
+  left:  50%;
+  transform:  translate(-50%,-50%);
+  padding: 0 20px;
+
+}
+.img{
+  height: 70px;
+  width: 70px;
+  background: url(Bhavya_pic.png)no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50px;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.container h1{
+  color: white;
+  margin-top:  50px;
+}
+.container p{
+  color: white;
+  margin-top:  60px;
+  font-size: large;
+  line-height: 2;
+  font-family: 'Times New Roman', serif;
+  
+}
+
+    </style>
+
+
+</body>
+</html>
