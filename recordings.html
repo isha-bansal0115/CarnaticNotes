@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="newnavigation.css">
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Home</a>
+  <a href="newabout.html">About</a>
+  <a href="newconverter.html">Converter</a>
+  <a href="newconvertedsongs.html">Converted Songs</a>
+  <a href="recordings.html">Recorded Music</a>
+  
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+<h2 style="text-align:center;color:white;   font-family: 'Times New Roman', serif;
+;"; >Listen to me play snippets of Indian music and play along!</h2>
+
+<h3 style="text-align:left;color:white;  font-family: 'Times New Roman', serif;
+;"; >Tum Hi Ho - Aashiqui 2</h3>
+
+<audio controls>
+  <source src="tumhiho.mp3" type="audio/mpeg">
+
+</audio>
+
+
+<h2 style="text-align:center;color:white;   font-family: 'Times New Roman', serif;
+;"; >More recordings coming this week!</h2>
+
+</body>
+</html>
